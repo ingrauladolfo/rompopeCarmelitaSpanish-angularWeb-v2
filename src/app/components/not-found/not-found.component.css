@@ -1,0 +1,18 @@
+.background{
+    background: url('../../../assets/img/fondos/404.png') top center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a{
+    color: #741b1d !important;
+    text-decoration: none;
+}
+button .primary{
+    background: #741b1d !important;
+}
+button .primary:hover{
+    background: #741b1d !important;
+}

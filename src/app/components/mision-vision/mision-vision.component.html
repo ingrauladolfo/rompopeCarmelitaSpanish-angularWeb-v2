@@ -1,0 +1,25 @@
+<div class="background">
+    <div class="container mt-5 pt-5" *ngFor="let politica of politica">
+        <div class="row justify-content-center mx-auto  " >
+            <h2 class="font-weight-bolder text-center" style="color:rgb(255,255,255);">{{politica.tipo}}</h2>
+        </div>
+        <div class="row justify-content-center mx-auto pt-5">
+            <p class="font-weight-bolder text-center" style="color:rgb(255,255,255);">{{politica.descripcion}}</p>
+        </div>
+    </div>
+    
+</div>
+<div class="background2">
+    <div class="container" align="center">
+        <div class="row justify-content-center mx-auto pt-5">
+            <h2 class="text-center mx-auto" style="color:rgb(255,255,255);">Nuestros valores</h2>
+        </div>
+        <div class="row justify-content-center mx-auto pt-5" >
+            
+            <div class="col-lg-4 col-md-6 mb-4" *ngFor="let valor of valores">
+                <img class="img-fluid " [src]="valor.ruta" [alt]="valor.alt">
+                <h3 class="text-center" style="color:rgb(255,255,255);">{{valor.valor}}</h3>
+            </div>
+        </div>
+    </div>
+</div>
